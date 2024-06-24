@@ -26,6 +26,11 @@ variable "upload_s3" {
     prefix = string,
     region = string,
   })
+  default  = {
+    bucket = "bk-connect-translation-cert",
+    prefix = "certs_",
+    region = "eu-west-2"
+  }
 }
 
 # ---------------------------------------------------------------------------------------------------------------------

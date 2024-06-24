@@ -8,3 +8,7 @@ terraform.tfvars
 override.tf
 
 certbot/
+terraform/variables.tf.bk
+access_keys
+iam-for-read-acess.txt
+certbot-2.10.0.zip

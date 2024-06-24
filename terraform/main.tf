@@ -163,7 +163,7 @@ locals {
   aws_partition  = data.aws_arn.current.partition
   aws_account_id = data.aws_caller_identity.current.account_id
 
-  certbot_version = "1.17.0"
+  certbot_version = "2.10.0"
 
   certbot_emails  = join(",", var.emails)
   certbot_domains = join(",", var.domains)
